@@ -26,7 +26,7 @@ import (
 	_ "image/jpeg"
 	_ "image/png"
 
-	"github.com/nanmu42/qrcode-api"
+	"github.com/itkld/qrcode-api"
 
 	"go.uber.org/zap"
 

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/nanmu42/qrcode-api"
+	"github.com/itkld/qrcode-api"
 )
 
 // query filed name

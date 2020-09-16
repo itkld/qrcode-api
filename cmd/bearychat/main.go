@@ -28,22 +28,22 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/nanmu42/qrcode-api"
+	"github.com/itkld/qrcode-api"
 
 	_ "image/gif"
 	_ "image/jpeg"
 	_ "image/png"
 
-	"github.com/nanmu42/qrcode-api/cmd/common"
+	"github.com/itkld/qrcode-api/cmd/common"
 	"github.com/pkg/errors"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/nanmu42/bearychat-go/openapi"
+	"github.com/itkld/bearychat-go/openapi"
 
-	"github.com/nanmu42/bearychat-go"
+	"github.com/itkld/bearychat-go"
 )
 
 var (
