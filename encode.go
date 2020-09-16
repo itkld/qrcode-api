@@ -42,7 +42,7 @@ func (q *QREncoder) Encode(dest io.Writer) (gotType string, err error) {
 		err = errors.Wrap(err, "cannot get a QR Code instance")
 		return
 	}
-	qrcode.Disable = true
+	qrcode.DisableBorder = true
 	switch fileTypeCheck(q.Type) {
 	case TypePNG:
 		gotType = TypePNG
