@@ -41,9 +41,9 @@ import (
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/itkld/bearychat-go/openapi"
+	"github.com/nanmu42/bearychat-go/openapi"
 
-	"github.com/itkld/bearychat-go"
+	"github.com/nanmu42/bearychat-go"
 )
 
 var (
